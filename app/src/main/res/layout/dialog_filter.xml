@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Begin Date"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+    <DatePicker
+        android:id="@+id/dpFilter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sort Order"
+        android:gravity="center"/>
+    <Spinner
+        android:id="@+id/spFilter"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/order"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="News Desk Values"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <CheckBox
+            android:id="@+id/cbTechnology"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Technology"/>
+        <CheckBox
+            android:id="@+id/cbPolitics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Politics"/>
+        <CheckBox
+            android:id="@+id/cbSport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sports"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

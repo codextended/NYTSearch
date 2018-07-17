@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NYT Search</string>
+    <string name="dialog_serach">Search Article</string>
+    <string-array name="order">
+        <item>Oldest</item>
+        <item>Newest</item>
+    </string-array>
+</resources>
